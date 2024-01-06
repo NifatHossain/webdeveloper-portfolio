@@ -1,0 +1,47 @@
+/* shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.pri-color{
+    color: #FD6E0A;
+}
+.pri-box{
+    border: 0px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 18px 36px;
+}
+.box-content{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    
+        
+}
+
+
+.title{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul> li{
+    list-style: none;
+    margin-right: 50px;
+    color:#474747;
+}
+li>a{
+    text-decoration: none;
+}
