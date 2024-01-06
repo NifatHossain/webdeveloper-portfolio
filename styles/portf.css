@@ -10,6 +10,9 @@ body{
     border-radius: 5px;
     background: #FD6E0A;
     padding: 18px 36px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 }
 .box-content{
     color: #FFF;
@@ -17,6 +20,10 @@ body{
     font-weight: 700;
     
         
+}
+
+.header{
+    background-color:#FFF8F3;
 }
 
 
@@ -36,6 +43,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 ul> li{
     list-style: none;
@@ -44,4 +52,15 @@ ul> li{
 }
 li>a{
     text-decoration: none;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .pro-pic{
+    /* width: 584px; */
+    width: 500px;
+    /* height: 676px; */
+
 }
