@@ -1,66 +1,88 @@
 /* shared styles */
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
-.pri-color{
-    color: #FD6E0A;
+.pri-color {
+  color: #fd6e0a;
 }
-.pri-box{
-    border: 0px;
-    border-radius: 5px;
-    background: #FD6E0A;
-    padding: 18px 36px;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
+.pri-box {
+  border: 0px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 18px 36px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
 }
-.box-content{
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    
-        
+.box-content {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-.header{
-    background-color:#FFF8F3;
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
-
-.title{
-    color: #181818;
-    font-family: Open Sans;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+.title {
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
-nav>ul{
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 200px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
 }
-ul> li{
-    list-style: none;
-    margin-right: 50px;
-    color:#474747;
+ul > li {
+  list-style: none;
+  margin-right: 50px;
+  color: #474747;
 }
-li>a{
-    text-decoration: none;
+li > a {
+  text-decoration: none;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner .pro-pic{
-    /* width: 584px; */
-    width: 500px;
-    /* height: 676px; */
-
+.banner .pro-pic {
+  /* width: 584px; */
+  width: 500px;
+  /* height: 676px; */
+}
+.banner-hi {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.banner-dis {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.banner-content{
+    max-width: 585px;
 }
