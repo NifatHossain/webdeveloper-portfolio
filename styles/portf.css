@@ -14,6 +14,15 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
+#pri-box2 {
+  border: 0px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 18px 36px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
 .mid{
   text-align: center;
   /* margin-left: 490px; */
@@ -227,4 +236,33 @@ main {
 }
 .resume hr{
   margin: 30px 0px;
+}
+.foot{
+  background-color:#FFF8F3;
+  display: flex;
+  gap: 117px;
+  padding: 130px 200px;
+  margin-top: 113px;
+  justify-items: auto;
+
+}
+.images img{
+  margin-right: 24px;
+}
+/* special */
+.contact input[type="text"], .contact input[type="text"], textarea{
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 36px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  background:  #FFF;
+  border: none;
+  /* special */
+  width: 100%;
+}
+.contact{
+  width: 50%;
 }
